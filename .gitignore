@@ -1,0 +1,13 @@
+# Android / Gradle
+*.iml
+.gradle/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+.idea/caches/
+.idea/workspace.xml
+.idea/libraries/
+.idea/modules.xml
+.DS_Store

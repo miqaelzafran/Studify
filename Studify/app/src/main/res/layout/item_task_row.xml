@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_card_blue"
+    android:id="@+id/row_container">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/row_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CSC264 LAB TEST"
+            android:textColor="@color/text_dark"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+            android:id="@+id/row_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="[TEST]  23 JUNE 2026  4 PM"
+            android:textColor="@color/text_dark"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+            android:id="@+id/row_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B3004"
+            android:textColor="@color/text_dark"
+            android:textSize="11sp"
+            android:alpha="0.8"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/row_status_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONE ✓"
+        android:textColor="@color/text_dark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/bg_status_pill"
+        android:clickable="true"
+        android:focusable="true"/>
+</LinearLayout>

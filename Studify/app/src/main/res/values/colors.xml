@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bg_dark">#181A1F</color>
+    <color name="bg_card">#22252B</color>
+    <color name="bg_nav">#1F2126</color>
+    <color name="spotify_green">#1DB954</color>
+    <color name="accent_blue">#0A58FF</color>
+    <color name="card_blue">#AFC9FF</color>
+    <color name="card_gray">#C9CBD1</color>
+    <color name="card_green">#1DB954</color>
+    <color name="card_red">#E85555</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#999999</color>
+    <color name="text_dark">#1A1A1A</color>
+    <color name="nav_inactive">#6E7178</color>
+</resources>
